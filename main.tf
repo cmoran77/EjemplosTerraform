@@ -55,7 +55,7 @@ resource "azurerm_network_interface" "vm" {
   }
 }
 
-# Create a Virtual Machine
+# Create a Virtual Machine - cambio github
 resource "azurerm_virtual_machine" "vm" {
   name                  = "myvmTF"
   location              = azurerm_resource_group.rg.location
